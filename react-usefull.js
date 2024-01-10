@@ -23,3 +23,10 @@ const arr2 = [...arr1, "Name4", "Name5"];
 console.log(arr1)
 
 console.log(arr2)
+
+//using map function to alter elements in the array
+let names = ["Fname1", "Fname2", "Fname3"];
+
+names.map((name) => {
+  return name + " Surname"
+})
