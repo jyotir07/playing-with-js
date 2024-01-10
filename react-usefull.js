@@ -9,3 +9,10 @@ const person = {
   age: 18,
   isMarried: false,
 };
+
+
+//copying all the daa of this object but not the name
+const person2 = {...person, name: "Another Name"};
+//using the defined names
+console.log(person)
+console.log(person2)
